@@ -1,0 +1,55 @@
+.navbar {
+    padding-top:20px;
+    padding-bottom:20px;
+    &-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__info {
+        display: flex;
+        align-items:center;
+        text-align:right;
+    }
+    &__address {
+        display:flex;
+        flex-direction: column;
+    }
+    &__button {
+        margin-left:30px;
+    }
+    &__phone {
+        color: $text-color;
+        @include bold;
+        font-size:20px;
+        text-decoration:none;
+        margin-top: 10px;
+        display: inline-block;
+    }
+}
+@media(max-width:768px) {
+    .navbar {
+        &__contacts {
+            display:none;
+        }
+        &__button {
+            font-style: 12px;
+            padding: 15px 25px;
+        }
+        &__logo {
+            width: 90px;
+        }
+    }
+}
+@media(max-width:567px) {
+    .navbar {
+        &__logo {
+            margin-left: 22px;
+        }
+        &__button {
+            margin-left:10px;
+            margin-right:22px;
+            font-size:10px;
+        }
+    }
+}
