@@ -1,0 +1,24 @@
+.portfolio {
+    background-color: $secondary;
+    background-image: url('../img/points.png');
+    background-repeat: repeat-y;
+    background-position:center left;
+    background-size: 50%;
+    &__title {
+        margin:0 auto;
+        margin-bottom: 100px;
+    }
+    &__arrows {
+        max-width: 120px;
+        margin:0 auto;
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.slider{
+        &__image {
+            margin:0 auto;
+        }
+
+}

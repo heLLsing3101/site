@@ -1,0 +1,36 @@
+@import 'fonts';
+@import 'colors';
+@import 'interface';
+
+/* Стили шапки */
+@import 'blocks/navbar';
+
+/* Стили секции hero */
+@import 'blocks/hero';
+
+/* Стили секции offer */
+@import 'blocks/offer';
+
+/* Стили секции portfolio */
+@import 'blocks/portfolio';
+
+/* Стили секции price */
+@import 'blocks/price';
+
+/* Стили секции steps */
+@import 'blocks/steps';
+
+/* Стили секции aviz */
+@import 'blocks/aviz';
+
+/* Стили секции features */
+@import 'blocks/features';
+
+/* Стили секции garanties */
+@import 'blocks/garanties';
+
+/* Стили секции brif */
+@import 'blocks/brif';
+
+/* Стили модального окна */
+@import 'blocks/modal';
