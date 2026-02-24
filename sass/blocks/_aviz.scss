@@ -1,0 +1,27 @@
+.aviz {
+    background-color:$main-color;
+    &__description {
+        display: block;
+        text-align: center;
+        font-size: 34px;
+        margin:0 auto;
+        line-height: 1.5;
+        letter-spacing: -1px;
+    }
+}
+@media(max-width:768px) {
+    .aviz {
+        &__description {
+            font-size: 24px;
+        }
+    }
+}
+@media(max-width:567px) {
+    .aviz {
+
+        &__description {
+            font-size: 20px;
+            line-height: 1.1;
+        }
+    }
+}
